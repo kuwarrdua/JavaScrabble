@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="629.0" prefWidth="527.0" style="-fx-background-color: transparent; -fx-background-image: url('https://media.istockphoto.com/videos/letters-floating-animation-zoom-in-video-id908459862?s=640x640');" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <children>
+        <Button fx:id="start" layoutX="323.0" layoutY="376.0" mnemonicParsing="false" onAction="#MainPage" prefHeight="68.0" prefWidth="137.0" text="Let's Begin!" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold" size="18.0" />
+            </font>
+            <padding>
+                <Insets top="5.0" />
+            </padding>
+            <cursor>
+                <Cursor fx:constant="DEFAULT" />
+            </cursor>
+            <effect>
+            <InnerShadow color="#4d83e0" radius="12.3325" width="30.33" />
+            </effect></Button>
+        <Label alignment="CENTER" layoutX="2.0" layoutY="118.0" prefHeight="68.0" prefWidth="534.0" style="-fx-background-color: white; -fx-font-family: Noto Sans, sans-serif; -fx-font-weight: bold;" text="Scrabble Game " textFill="#09250a" wrapText="true">
+            <font>
+                <Font name="Impact" size="36.0" />
+            </font>
+         <effect>
+            <InnerShadow color="#307ae3bf" offsetX="2.0" offsetY="2.0" />
+         </effect></Label>
+      <Label layoutX="332.0" layoutY="571.0" style="-fx-font-weight: bold; -fx-font-style: italic; -fx-font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;" text="Kuwardeep Singh" textFill="#ff1a1a">
+         <font>
+            <Font size="19.0" />
+         </font>
+         <effect>
+            <InnerShadow color="#ffffffc7" offsetX="5.0" offsetY="5.0" />
+         </effect>
+      </Label>
+      <Button layoutX="69.0" layoutY="379.0" mnemonicParsing="false" onAction="#RulePage" prefHeight="61.0" prefWidth="130.0" text="Rules">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+         <effect>
+            <InnerShadow color="#4d83e0" radius="14.665" width="39.66" />
+         </effect>
+      </Button>
+    </children>
+</AnchorPane>
